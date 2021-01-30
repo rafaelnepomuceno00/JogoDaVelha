@@ -1,0 +1,57 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+.quadrado:hover {
+    cursor: pointer;
+}
+
+.quadrado {
+    width: 140px;
+    height: 140px;
+    background-color: yellow;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "\1F525";
+    font-size: 65px;
+    line-height: 140px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: "\1F30A";
+    font-size: 65px;
+    line-height: 140px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
